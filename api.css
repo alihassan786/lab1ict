@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+.menu-bar{
+    background-color: rgb(0,100,0);
+    text-align: center;
+;
+}
+.menu-bar ul{
+    margin-left: 100px;
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active, .menu-bar ul li:hover{
+    background-color: #2bab0d;
+    border-radius: 3px;
+
+}
+.submenu1{
+    display: none;
+}
+.menu-bar ul li:hover .submenu1
+{
+    display: block;
+    position: absolute;
+    background-color: rgb(0,100,0);
+    margin-top: 15px;
+    margin-left: -30px;
+}
+.menu-bar ul li:hover .submenu1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .submenu1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .submenu1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .submenu1 ul li a:hover
+{
+    color: #00adee;
+}
+.submenu2{display: none}
+.hoverme:hover .submenu2
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: rgb(0,100,0);
+}
+.menu-bar h1{text-align: left}
+
+#logo{position: absolute;text-align: left;padding-top: 15px;text-decoration: none;color: white;padding-left: 10px}
+
+
+#rec1{
+    height: 250px;
+    width: 100%;
+    background-color: #00adee;
+    align-content: center;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 40px;
+    float: left;;
+}
+#rec1a{
+    height: 70px;
+    width: 100%;
+    margin-top: 40px;
+    background-color: #E9f6ff;
+    position: absolute;
+    margin-bottom: 0;
+    float: left;
+    padding-top: 20px;
+}
+#rec2{
+    height: 250px;
+    float: left;
+    width: 100%;
+    background-color: gainsboro;
+    padding-left: 150px;
+    padding-top: 50px;
+    text-align: left;
+    font-size: 25px;
+    border-bottom:powderblue 4px solid;
+}
+#rec3{
+    height: 250px;
+    float: left;
+    width: 100%;
+    background-color: gainsboro;
+    padding-left: 150px;
+    padding-top: 50px;
+    text-align: left;
+    font-size: 25px;
+    border-bottom:powderblue 4px solid;
+
+}
+#rec4
+{
+    height: 450px;
+    float: left;
+    width: 100%;
+    background-color: gainsboro;
+    padding-left: 300px;
+    font-size: 20px;
+
+
+
+
+
+
+}
+#rec4a{
+    height: 100%;
+    width: 30%;
+    background-color: transparent;
+    float: left;
+
+
+}
+
+#rec4b{
+    height: 100%;
+    width: 45%;
+    background-color: #edefff;
+    float: left;
+    margin-left: 50px;
+}
+#rec4ba{
+    height: 200px;
+    width: 100%;
+    background-color: #efe6ff;
+    margin-top: 130px;
+}
+
+
+#rec4bas1{
+    height: 150px;
+    width: 130px;
+    background-color: #0d3578;
+    margin-left: 30px;
+    color: white;
+    float: left;
+padding-top: 45px
+}
+#rec4bas2{
+    height: 150px;
+    width: 130px;
+    background-color: #0D3578;
+    color: white;
+    margin-left: 10px;
+    float: left;
+    padding-top: 45px}
+#rec4bas3{
+    height: 150px;
+    width: 130px;
+    background-color: #0D3578;
+    color: white;
+    margin-left: 10px;
+    float: left;
+    padding-top: 45px}
+#rec5{
+    height: 450px;
+    float: left;
+    width: 100%;
+    background-color: gainsboro;
+
+    font-size: 20px;
+    padding-top: 100px;
+    padding-left: 40px;
+    text-align: left;
+
+}
+#rec6{height: 350px;width: 100%;background-color: whitesmoke;
+    float: left;}
+#rec6a{height:300px;width: 200px;background-color:transparent ;float: left;margin-left: 200px;margin-top: 30px;color: grey;text-align: center;font-size: 30px;}
+.rec6aa{text-decoration: none}
+#rec6b{height:300px;width: 200px;background-color:transparent ;float: left;margin-left: 100px;margin-top: 30px;color: grey;text-align: center;font-size: 30px;}
+#rec6c{height:300px;width: 200px;background-color:transparent ;float: left;margin-left: 100px;margin-top: 30px;color: grey;text-align: center;font-size: 30px;}
+#search{width: 100px;margin-top: 25px}

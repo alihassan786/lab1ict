@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+.menu-bar{
+    background-color: rgb(0,100,0);
+    text-align: center;
+;
+}
+.menu-bar ul{
+    margin-left: 100px;
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active, .menu-bar ul li:hover{
+    background-color: #2bab0d;
+    border-radius: 3px;
+
+}
+.submenu1{
+    display: none;
+}
+.menu-bar ul li:hover .submenu1
+{
+    display: block;
+    position: absolute;
+    background-color: rgb(0,100,0);
+    margin-top: 15px;
+    margin-left: -30px;
+}
+.menu-bar ul li:hover .submenu1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .submenu1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .submenu1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .submenu1 ul li a:hover
+{
+    color: #00adee;
+}
+.submenu2{display: none}
+.hoverme:hover .submenu2
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: rgb(0,100,0);
+}
+.menu-bar h1{text-align: left}
+
+#logo{position: absolute;text-align: left;padding-top: 15px;text-decoration: none;color: white;padding-left: 10px}
+
+
+#arec1{
+    height:400px;width: 100%;
+background-color: #edefff ;
+}
+#arec1a{
+    height: 100%;
+    width: 50%;
+    background-color: transparent;
+    align-content: center;
+    float: left;
+}
+#arec1a p{
+    padding-top: 50px;
+    text-indent: each-line;
+    font-size: 25px;
+    padding-left: 20px;
+}
+#arec1b{
+    height:100%;
+    width: 50%;
+    float:left;
+    background-color:transparent;
+    text-align: left;
+    color: blue;
+    font-size:30px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+#arec2{
+    height:400px;
+    width: 100%;
+    background-color: gainsboro;
+    float: left;
+}
+#arec2 h1{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+#arec2 img{
+    margin-left: 20px;
+padding-left: 55px;
+}
+#arec3{
+    height: 500px;
+    width: 100%;
+
+}
+#arec3a{
+    height: 100%;
+    width: 50%;
+
+    float: left;
+    align-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+#arec3b{
+    height: 100%;
+    width: 50%;
+
+    float: left;
+    align-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+.aimg{
+    width: 80px;
+}
+
+
+#arec3a p,h4{
+    font-size: 25px;
+}
+#arec3b p,h4{
+    font-size: 25px;
+}
+#arec3 button{
+    margin-top: 30px;
+    height: 30px;
+    width: 200px;
+    border: #0d3578 solid 4px;
+    color: #0d3578;
+    font-size: 20px;
+}
+#arec4{
+    height: 250px;
+    width: 100%;
+    background-color: #acb0bb;
+    float: left;
+    align-content: center;
+    text-align: center;
+}
+#arec4 h2{
+    float: left;
+    padding: 50px;
+    padding-left: 80px;
+}
+
+
+
+
+#rec6{height: 350px;width: 100%;background-color: whitesmoke;
+    float: left;}
+#rec6a{height:300px;width: 200px;background-color:transparent ;float: left;margin-left: 200px;margin-top: 30px;color: grey;text-align: center;font-size: 30px;}
+.rec6aa{text-decoration: none}
+#rec6b{height:300px;width: 200px;background-color:transparent ;float: left;margin-left: 100px;margin-top: 30px;color: grey;text-align: center;font-size: 30px;}
+#rec6c{height:300px;width: 200px;background-color:transparent ;float: left;margin-left: 100px;margin-top: 30px;color: grey;text-align: center;font-size: 30px;}
+#search{width: 100px;margin-top: 25px}
